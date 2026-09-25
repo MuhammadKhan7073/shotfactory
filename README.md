@@ -1,4 +1,4 @@
-# catalogue-images
+# shotfactory
 
 Generate a set of eight catalogue images per product SKU — hero, dimension,
 infographic, lifestyle, wash care, close-up, edge detail, comparison — by driving
@@ -11,8 +11,8 @@ failure modes listed in the skill are all ones that actually cost a run.
 ## Install
 
 ```
-/plugin marketplace add MuhammadKhan7073/catalogue-images
-/plugin install catalogue-images@catalogue-images
+/plugin marketplace add MuhammadKhan7073/shotfactory
+/plugin install shotfactory@shotfactory
 ```
 
 Then just describe the job: *"generate catalogue images for the SKUs in products.xlsx"*.

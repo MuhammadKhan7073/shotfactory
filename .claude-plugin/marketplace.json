@@ -1,13 +1,13 @@
 {
-  "name": "catalogue-images",
+  "name": "shotfactory",
   "description": "Bulk product catalogue image generation through ChatGPT Work mode",
   "owner": {
     "name": "MuhammadKhan7073"
   },
   "plugins": [
     {
-      "name": "catalogue-images",
-      "source": "./plugins/catalogue-images",
+      "name": "shotfactory",
+      "source": "./plugins/shotfactory",
       "description": "Generate eight catalogue images per product SKU with ChatGPT Work mode, driven from a spreadsheet, then QC and package them for a client"
     }
   ]

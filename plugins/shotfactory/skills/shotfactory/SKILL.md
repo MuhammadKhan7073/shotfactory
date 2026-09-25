@@ -1,5 +1,5 @@
 ---
-name: catalogue-images
+name: shotfactory
 description: Produce a set of catalogue images per product SKU (hero, dimension, infographic, lifestyle, wash care, close-up, edge detail, comparison) by driving ChatGPT Work mode in Chrome from a product spreadsheet, then validate, QC and package the results for a client. Use when someone needs marketplace or catalogue imagery in bulk for many SKUs, has product photos plus an approved style reference set, and wants the run tracked and delivered as one zip.
 ---
 

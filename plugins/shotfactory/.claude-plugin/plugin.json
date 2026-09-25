@@ -1,5 +1,5 @@
 {
-  "name": "catalogue-images",
+  "name": "shotfactory",
   "description": "Generate eight catalogue images per product SKU with ChatGPT Work mode, driven from a spreadsheet, then QC and package them for a client",
   "version": "1.0.0",
   "author": {
