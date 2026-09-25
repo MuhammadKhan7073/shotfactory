@@ -46,6 +46,15 @@ python scripts/qc_sheet.py 1 2 3 4
 python scripts/make_delivery.py
 ```
 
+## Two sessions (optional)
+
+One session with 2–3 profiles is the normal setup. If you want a second Claude
+session to share the setup work, `scripts/coord.py` gives the two roles separate
+profiles, separate SKU ranges, timestamped per-role logs, and a lock around browser
+switching — needed because selecting a browser is global and the last selector wins.
+It cuts setup time; it does not raise throughput, since the ceiling is the ChatGPT
+account quota.
+
 ## Throughput
 
 About **6 SKUs per ChatGPT account per 5-hour window**, ~40 per account per week,
